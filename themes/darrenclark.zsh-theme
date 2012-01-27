@@ -1,6 +1,6 @@
 PROMPT='
 %{$fg_bold[yellow]%}%n%{$reset_color%} @ %{$fg[red]%}%m   %{$fg_bold[green]%}${PWD/#$HOME/~}   $(git_prompt_info)$(svn_prompt_info) %{$reset_color%}
-➜  '
+%{$fg_bold[grey]%}➜%{$reset_color%}  '
 PROMPT2="%{$fg_bold[grey]%}%_ ➜ %{$reset_color%}"
 PROMPT3="%{$fg_bold[grey]%}Choose ➜ %{$reset_color%}"
 
